@@ -1,0 +1,17 @@
+# dotfiles
+.*
+
+# Package Managers
+package-lock.json
+yarn.lock
+
+# Dependencies
+node_modules
+bower_components
+
+# TypeScript
+jsconfig.json
+tsconfig.json
+
+# misc
+*.map

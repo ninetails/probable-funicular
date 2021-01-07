@@ -1,0 +1,22 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "files.exclude": {
+    "**/.*rc": true,
+    "**/coverage": true,
+    "**/node_modules": true,
+    "*.config.js": true,
+    ".editorconfig": true,
+    ".env*": true,
+    ".gitignore": true,
+    ".prettier*": true,
+    ".vscode/": true,
+    "CODE_OF_CONDUCT.md": true,
+    "lerna.json": true,
+    "LICENSE": true,
+    "package-lock.json": true,
+    "yarn.lock": true
+  }
+}
