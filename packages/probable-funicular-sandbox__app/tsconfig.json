@@ -1,7 +1,8 @@
 {
   "extends": "@probable-funicular-config/typescript",
   "compilerOptions": {
-    "module": "esnext"
+    "module": "esnext",
+    "allowJs": true
   },
   "include": ["next-env.d.ts", "pages/**/*.ts", "pages/**/*.tsx"],
   "exclude": ["node_modules"]

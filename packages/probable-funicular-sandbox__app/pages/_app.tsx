@@ -1,4 +1,5 @@
-import '../styles/globals.css'
+import Head from 'next/head'
+import 'minireset.css/minireset.min.css'
 
 interface MyAppProps {
   Component: React.ComponentType
@@ -6,5 +7,13 @@ interface MyAppProps {
 }
 
 export default function MyApp({ Component, pageProps }: MyAppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
