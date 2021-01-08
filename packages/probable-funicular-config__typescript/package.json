@@ -1,0 +1,13 @@
+{
+  "name": "@probable-funicular-config/typescript",
+  "version": "0.0.0",
+  "repository": "ninetails/probable-funicular",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "peerDependencies": {
+    "typescript": "^3.4.3"
+  }
+}

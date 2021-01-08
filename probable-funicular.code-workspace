@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "@probable-funicular-config/typescript",
+      "path": "packages/probable-funicular-config__typescript"
+    },
+    {
+      "name": "@probable-funicular-sandbox/app",
+      "path": "packages/probable-funicular-sandbox__app"
+    }
+  ],
+  "settings": {}
+}

@@ -28,9 +28,11 @@
     "clean:deps": "lerna run clean",
     "clean:lerna": "lerna clean -y",
     "clean:root": "rimraf node_modules",
-    "precommit": "npm-run-all precommit:*",
+    "docker:verdaccio:run": "docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio",
+    "lint": "lerna run lint",
+    "precommit": "run-p precommit:*",
     "precommit:lerna": "lerna run precommit",
-    "precommit:root": "lint-staged",
+    "precommit:root": "lint-staged -q",
     "test": "lerna run test"
   }
 }
