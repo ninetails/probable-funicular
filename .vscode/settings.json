@@ -13,6 +13,7 @@
     "*.config.js": true,
     ".editorconfig": true,
     ".env*": true,
+    ".github/": true,
     ".prettier*": true,
     ".vscode/": true,
     "CODE_OF_CONDUCT.md": true,

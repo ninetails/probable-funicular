@@ -24,6 +24,7 @@
     "yarpm": "^0.2.1"
   },
   "scripts": {
+    "build": "lerna run build",
     "clean": "run-s clean:deps clean:lerna clean:root || exit 0",
     "clean:deps": "lerna run clean",
     "clean:lerna": "lerna clean -y",
