@@ -2,7 +2,7 @@
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-export default (_: NextApiRequest, res: NextApiResponse) => {
+export default (_: NextApiRequest, res: NextApiResponse): void => {
   res.statusCode = 200
   res.json({ name: 'John Doe' })
 }

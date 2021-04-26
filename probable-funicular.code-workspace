@@ -1,4 +1,19 @@
 {
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint"
+    ]
+  },
+  "settings": {
+    "[markdown]": {
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.wordWrapColumn": 80
+    },
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
   "folders": [
     {
       "path": "."
@@ -8,9 +23,16 @@
       "path": "packages/probable-funicular-config__typescript"
     },
     {
+      "name": "@probable-funicular-config/eslint-config",
+      "path": "packages/probable-funicular-config__eslint-config"
+    },
+    {
+      "name": "@probable-funicular-tools/linter",
+      "path": "packages/probable-funicular-tools__linter"
+    },
+    {
       "name": "@probable-funicular-sandbox/app",
       "path": "packages/probable-funicular-sandbox__app"
     }
-  ],
-  "settings": {}
+  ]
 }

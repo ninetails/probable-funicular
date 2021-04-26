@@ -1,8 +1,4 @@
 {
-  "[markdown]": {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80
-  },
   "files.exclude": {
     "**/.*rc": true,
     "**/.gitignore": true,

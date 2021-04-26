@@ -1,12 +1,8 @@
 import Head from 'next/head'
+import type { AppProps } from 'next/app'
 import 'minireset.css/minireset.min.css'
 
-interface MyAppProps {
-  Component: React.ComponentType
-  pageProps: any
-}
-
-export default function MyApp({ Component, pageProps }: MyAppProps) {
+export default function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
   return (
     <>
       <Head>

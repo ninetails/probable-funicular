@@ -1,6 +1,7 @@
 {
   "files.exclude": {
     "*.config.js": true,
+    ".eslintrc*": true,
     ".gitignore": true,
     ".next": true,
     ".vscode": true,

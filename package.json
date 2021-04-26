@@ -12,6 +12,9 @@
       "packages/*"
     ]
   },
+  "resolutions": {
+    "webpack": "^5.12.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -30,6 +33,7 @@
     "clean:lerna": "lerna clean -y",
     "clean:root": "rimraf node_modules",
     "docker:verdaccio:run": "docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio",
+    "docker:test:latest:yarn": "docker build -q --no-cache -t test -f ./docker/build/node-latest-yarn/Dockerfile . && docker rmi test",
     "lint": "lerna run lint",
     "precommit": "run-p precommit:*",
     "precommit:lerna": "lerna run precommit",
